@@ -38,7 +38,7 @@
 
 <!-- header -->
 
-	<header id="header-bg-2">
+	<header id="header-bg-1" style="background-image: url( /img/1.jpg );">	
 
 	
 		<div id="cd-logo"><a href="/"><img src="/img/logo.png" alt="Logo"></a></div>
@@ -96,7 +96,7 @@
 <script type="text/javascript">
 	function changeHeaderBg(){
 		var random_bg = Math.floor(Math.random() * 109 + 1);
-		var bg = 'url(https://adamlaiiiii.github.io/Random-img/' + random_bg + '.jpg)';
+		var bg = 'url(' + random_bg + '.jpg)';
 		$("#header-bg-2").css("background-image", bg);
 	}
 </script>
@@ -154,7 +154,7 @@
 
 			<div class="blog-text-center">
 				
-					<i class="fa fa-book">总计2篇文章</i>
+					<i class="fa fa-book">总计1篇文章</i>
 				
 			</div>  
 
@@ -177,21 +177,6 @@
 							2018-10
 						</a>
 					</div>				
-				  
-				
-				<div class="archive-item">
-					<div class="archive-post-title">									
-						<a href="/2018/10/25/title/" itemprop="url">Hello World</a>
-					</div>
-					<div class="archive-post-time">
-						<a href="/2018/10/25/title/" itemprop="url">10-25</a>
-					</div>
-				</div>		        							
-							
-				
-				
-				
-								
 				  
 				
 				<div class="archive-item">
@@ -295,7 +280,7 @@
 	var random_bg = Math.floor(Math.random() * 109 + 1);
 
 	//var bg = 'url(/img/random/' + random_bg + '.jpg)';		
-	var bg = 'url(https://adamlaiiiii.github.io/Random-img/' + random_bg + '.jpg)';
+	var bg = 'url(' + random_bg + '.jpg)';
 
 	$("#header-bg-2").css("background-image", bg);
 </script>
